@@ -1,0 +1,5 @@
+[target.'cfg(all(target_os = "linux", target_env = "gnu"))']
+rustflags = ["-C", "link-arg=-fuse-ld=lld"]
+
+[target.'cfg(all(target_os = "linux", target_env = "musl"))']
+rustflags = ["-C", "link-arg=-fuse-ld=lld"]
