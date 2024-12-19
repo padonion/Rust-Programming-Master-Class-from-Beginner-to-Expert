@@ -17,7 +17,7 @@ pub struct Node<T> {
 impl<T: std::fmt::Display> Node<T> {
     fn new(element: T) -> Rc<RefCell<Node<T>>> {
         Rc::new(RefCell::new(Node {
-            element: element,
+            element,
             prev: None,
             next: None,
         }))
