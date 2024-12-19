@@ -1,7 +1,3 @@
 [workspace]
 resolver = "2"
-members = [
-    "rs-double-linked-list",
-    "rs-smart-pointer-circle-ref-risk",
-    "rs-weak-ref"
-]
+members = ["rs-double-linked-list", "rs-macro-intro", "rs-smart-pointer-circle-ref-risk", "rs-weak-ref"]

@@ -7,6 +7,10 @@ name = "rs-double-linked-list"
 version = "0.1.0"
 
 [[package]]
+name = "rs-macro-intro"
+version = "0.1.0"
+
+[[package]]
 name = "rs-smart-pointer-circle-ref-risk"
 version = "0.1.0"
 
