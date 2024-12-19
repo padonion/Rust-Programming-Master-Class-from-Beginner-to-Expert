@@ -1,0 +1,6 @@
+[package]
+name = "rs-smart-pointer-circle-ref-risk"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
