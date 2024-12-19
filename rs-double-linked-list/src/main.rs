@@ -93,12 +93,17 @@ impl<T: std::fmt::Display> List<T> {
     }
 
     fn print(&self) {
-        let mut current = self.head.as_ref().map(|node| node.clone());
-        while let Some(node) = current {
-            print!("{} ", node.borrow().element);
-            current = node.borrow().next.as_ref().map(|node| node.clone());
+        if self.head.is_none() {
+            println!("[]");
+        } else {
+            let mut transversal = self.head.clone();
+            print!("[");
+            while transversal.is_some() {
+                print!("{} ", transversal.as_ref().unwrap().borrow().element);
+                transversal = transversal.unwrap().borrow().next.clone();
+            }
+            println!("]");
         }
-        println!();
     }
 }
 
