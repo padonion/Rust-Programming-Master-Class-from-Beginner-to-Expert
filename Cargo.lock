@@ -15,6 +15,10 @@ name = "rs-macro-intro"
 version = "0.1.0"
 
 [[package]]
+name = "rs-macro-repeat-pattern"
+version = "0.1.0"
+
+[[package]]
 name = "rs-smart-pointer-circle-ref-risk"
 version = "0.1.0"
 
