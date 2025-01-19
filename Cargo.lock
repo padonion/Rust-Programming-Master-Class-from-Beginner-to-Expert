@@ -311,6 +311,10 @@ name = "rs-smart-pointer-circle-ref-risk"
 version = "0.1.0"
 
 [[package]]
+name = "rs-thread-parking-yield"
+version = "0.1.0"
+
+[[package]]
 name = "rs-weak-ref"
 version = "0.1.0"
 
