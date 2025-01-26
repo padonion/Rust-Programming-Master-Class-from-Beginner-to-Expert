@@ -1,3 +1,3 @@
 [workspace]
 resolver = "2"
-members = [ "rs-async-await", "rs-basic-file", "rs-basic-path","rs-double-linked-list", "rs-macro-capturing", "rs-macro-intro", "rs-macro-repeat-pattern", "rs-regex", "rs-smart-pointer-circle-ref-risk", "rs-thread-parking-yield", "rs-tp-blockchain", "rs-weak-ref", "rs-web-scraping"]
+members = [ "rs-async-await", "rs-basic-file", "rs-basic-path","rs-double-linked-list", "rs-macro-capturing", "rs-macro-intro", "rs-macro-repeat-pattern", "rs-regex", "rs-smart-pointer-circle-ref-risk", "rs-tcpip", "rs-thread-parking-yield", "rs-tp-blockchain", "rs-weak-ref", "rs-web-scraping"]
